@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <header>
+    <%- include('../partials/header'); %>
+  </header>
+
+  <main class="container flex-grow-1 my-4">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-header bg-primary text-white">
+            <h2><i class="bi bi-info-circle"></i> Über diese Anwendung</h2>
+          </div>
+          <div class="card-body">
+            <h4>Bootstrap NW.js Desktop App</h4>
+            <p class="lead">
+              Eine vollständige plattformübergreifende Desktop-Anwendung mit modernen Web-Technologien.
+            </p>
+
+            <h5 class="mt-4">🛠️ Technologie-Stack</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>Node.js:</strong> JavaScript-Runtime
+              </li>
+              <li class="list-group-item">
+                <strong>Express:</strong> Web-Framework & HTTP-Server
+              </li>
+              <li class="list-group-item">
+                <strong>EJS:</strong> Template-Engine
+              </li>
+              <li class="list-group-item">
+                <strong>Bootstrap 5.3:</strong> CSS-Framework
+              </li>
+              <li class="list-group-item">
+                <strong>jQuery 3.7:</strong> DOM-Manipulation
+              </li>
+              <li class="list-group-item">
+                <strong>NW.js:</strong> Desktop-App-Wrapper
+              </li>
+            </ul>
+
+            <h5 class="mt-4">✨ Features</h5>
+            <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li>Plattformübergreifend (Win/Mac/Linux)</li>
+                  <li>Responsives Design</li>
+                  <li>CDN-basierte Ressourcen</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li>Template-basierte Views</li>
+                  <li>Express Backend</li>
+                  <li>Bootstrap Icons</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="alert alert-success mt-4">
+              <i class="bi bi-check-circle"></i>
+              <strong>Open Source:</strong> MIT-Lizenz
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <div class="card-header bg-secondary text-white">
+            <h5><i class="bi bi-laptop"></i> System-Info</h5>
+          </div>
+          <div class="card-body">
+            <p><strong>Version:</strong> 1.0.0</p>
+            <p><strong>Lizenz:</strong> MIT</p>
+            <p><strong>Autor:</strong> Martin Imle</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header bg-info text-white">
+            <h5><i class="bi bi-link-45deg"></i> Links</h5>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="https://nwjs.io" target="_blank" class="btn btn-sm btn-outline-primary w-100">
+                  <i class="bi bi-box-arrow-up-right"></i> NW.js
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://nodejs.org" target="_blank" class="btn btn-sm btn-outline-success w-100">
+                  <i class="bi bi-box-arrow-up-right"></i> Node.js
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://getbootstrap.com" target="_blank" class="btn btn-sm btn-outline-info w-100">
+                  <i class="bi bi-box-arrow-up-right"></i> Bootstrap
+                </a>
+              </li>
+              <li>
+                <a href="https://expressjs.com" target="_blank" class="btn btn-sm btn-outline-dark w-100">
+                  <i class="bi bi-box-arrow-up-right"></i> Express
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <%- include('../partials/footer'); %>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <header>
+    <%- include('../partials/header'); %>
+  </header>
+
+  <main class="container flex-grow-1 my-4">
+    <div class="row">
+      <div class="col-12">
+        <div class="jumbotron bg-light p-5 rounded-3">
+          <h1 class="display-4">
+            <i class="bi bi-rocket-takeoff"></i> Willkommen!
+          </h1>
+          <p class="lead">
+            Dies ist eine Bootstrap NW.js Desktop-Anwendung mit Express und EJS.
+          </p>
+          <hr class="my-4">
+          <p>Teste die jQuery-Funktionalität mit den Buttons unten:</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-header">
+            <h5><i class="bi bi-gear"></i> Interaktive Demo</h5>
+          </div>
+          <div class="card-body">
+            <p id="demo-text" class="alert alert-info">
+              <i class="bi bi-eye"></i> Dieser Text kann ein- und ausgeblendet werden!
+            </p>
+            <button type="button" class="btn btn-success" id="show-btn">
+              <i class="bi bi-eye"></i> Zeigen
+            </button>
+            <button type="button" class="btn btn-danger" id="hide-btn">
+              <i class="bi bi-eye-slash"></i> Verbergen
+            </button>
+            <button type="button" class="btn btn-primary" id="toggle-btn">
+              <i class="bi bi-arrow-repeat"></i> Toggle
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <i class="bi bi-window-desktop display-1 text-primary"></i>
+            <h5 class="card-title mt-3">Plattformübergreifend</h5>
+            <p class="card-text">Windows, macOS und Linux</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <i class="bi bi-bootstrap-fill display-1 text-primary"></i>
+            <h5 class="card-title mt-3">Bootstrap 5</h5>
+            <p class="card-text">Modernes, responsives Design</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <i class="bi bi-code-square display-1 text-primary"></i>
+            <h5 class="card-title mt-3">Node.js & Express</h5>
+            <p class="card-text">Leistungsstarkes Backend</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <%- include('../partials/footer'); %>
+  </footer>
+
+  <script>
+    $(document).ready(function() {
+      // Button-Handler
+      $("#show-btn").click(function() {
+        $("#demo-text").slideDown(500);
+      });
+
+      $("#hide-btn").click(function() {
+        $("#demo-text").slideUp(500);
+      });
+
+      $("#toggle-btn").click(function() {
+        $("#demo-text").slideToggle(500);
+      });
+    });
+  </script>
+</body>
+</html>
