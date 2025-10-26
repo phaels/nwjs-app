@@ -1,6 +1,6 @@
 # 🚀 Bootstrap NW.js Desktop Application (English)
 
-A complete cross-platform desktop application built with Node.js, Express, EJS, Bootstrap, and NW.js. Runs on Windows, macOS, and Linux.
+A tutoral for a complete cross-platform desktop application built with Node.js, Express, EJS, Bootstrap, and NW.js. Runs on Windows, macOS, and Linux.
 
 <img width="2532" height="1227" alt="Bildschirmfoto_20251026_140337" src="https://github.com/user-attachments/assets/023f8642-870c-4191-8738-f84c1db7eef3" />
 
