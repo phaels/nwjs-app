@@ -720,6 +720,7 @@ npm run build:all
 ## 📝 License
 
 MIT License © 2025 Martin Imle
+
 **Support:** m.imle@gmx.net (PayPal)
 
 ---
