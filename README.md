@@ -726,4 +726,4 @@ MIT License © 2025 Martin Imle
 
 **⭐ If you find this project useful, please give it a star!**
 
-Eine vollständige deutsche Anleitung finden Sie in der Datei `README_DE.md`.
+Eine vollständige deutsche Anleitung finden Sie in der Datei `/public/doc/README-deutsch.md`.
