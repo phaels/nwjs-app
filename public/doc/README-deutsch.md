@@ -87,7 +87,11 @@ Erstelle nun nacheinander alle benötigten Dateien mit dem unten aufgeführten C
   "dependencies": {
     "express": "^4.18.2",
     "ejs": "^3.1.9",
-    "serve-favicon": "^2.5.0"
+    "serve-favicon": "^2.5.0",
+    "jquery": "*",
+    "bootstrap": "*",
+    "bootstrap-icons": "*",
+    "@popperjs/core": "*"
   },
   "description": "Bootstrap NW.js Desktop Anwendung",
   "node-main": "server.js",
