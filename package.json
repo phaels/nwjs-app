@@ -8,7 +8,8 @@
     "serve-favicon": "^2.5.0",
     "jquery": "*",
     "bootstrap": "*",
-    "bootstrap-icons": "*"
+    "bootstrap-icons": "*",
+    "@popperjs/core": "*"
   },
   "description": "Bootstrap NW.js Desktop Anwendung",
   "node-main": "server.js",
